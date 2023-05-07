@@ -30,6 +30,10 @@ namespace GUI
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_thanhtoan = new Guna.UI.WinForms.GunaButton();
+            this.btn_chuyenban = new Guna.UI.WinForms.GunaButton();
+            this.btn_xoamon = new Guna.UI.WinForms.GunaButton();
+            this.btn_themmon = new Guna.UI.WinForms.GunaButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
@@ -46,10 +50,6 @@ namespace GUI
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.listView2 = new System.Windows.Forms.ListView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_themmon = new Guna.UI.WinForms.GunaButton();
-            this.btn_xoamon = new Guna.UI.WinForms.GunaButton();
-            this.btn_chuyenban = new Guna.UI.WinForms.GunaButton();
-            this.btn_thanhtoan = new Guna.UI.WinForms.GunaButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -70,6 +70,114 @@ namespace GUI
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(489, 132);
             this.panel1.TabIndex = 4;
+            // 
+            // btn_thanhtoan
+            // 
+            this.btn_thanhtoan.AnimationHoverSpeed = 0.07F;
+            this.btn_thanhtoan.AnimationSpeed = 0.03F;
+            this.btn_thanhtoan.BackColor = System.Drawing.Color.Transparent;
+            this.btn_thanhtoan.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
+            this.btn_thanhtoan.BorderColor = System.Drawing.Color.Black;
+            this.btn_thanhtoan.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_thanhtoan.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_thanhtoan.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_thanhtoan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_thanhtoan.Image = null;
+            this.btn_thanhtoan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_thanhtoan.ImageSize = new System.Drawing.Size(70, 70);
+            this.btn_thanhtoan.Location = new System.Drawing.Point(352, 72);
+            this.btn_thanhtoan.Name = "btn_thanhtoan";
+            this.btn_thanhtoan.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_thanhtoan.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_thanhtoan.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_thanhtoan.OnHoverImage = null;
+            this.btn_thanhtoan.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_thanhtoan.Radius = 20;
+            this.btn_thanhtoan.Size = new System.Drawing.Size(93, 57);
+            this.btn_thanhtoan.TabIndex = 11;
+            this.btn_thanhtoan.Text = "Thanh Toán";
+            this.btn_thanhtoan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btn_chuyenban
+            // 
+            this.btn_chuyenban.AnimationHoverSpeed = 0.07F;
+            this.btn_chuyenban.AnimationSpeed = 0.03F;
+            this.btn_chuyenban.BackColor = System.Drawing.Color.Transparent;
+            this.btn_chuyenban.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
+            this.btn_chuyenban.BorderColor = System.Drawing.Color.Black;
+            this.btn_chuyenban.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_chuyenban.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_chuyenban.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_chuyenban.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_chuyenban.Image = null;
+            this.btn_chuyenban.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_chuyenban.ImageSize = new System.Drawing.Size(70, 70);
+            this.btn_chuyenban.Location = new System.Drawing.Point(153, 79);
+            this.btn_chuyenban.Name = "btn_chuyenban";
+            this.btn_chuyenban.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_chuyenban.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_chuyenban.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_chuyenban.OnHoverImage = null;
+            this.btn_chuyenban.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_chuyenban.Radius = 20;
+            this.btn_chuyenban.Size = new System.Drawing.Size(79, 50);
+            this.btn_chuyenban.TabIndex = 10;
+            this.btn_chuyenban.Text = "Chuyển bàn";
+            this.btn_chuyenban.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btn_xoamon
+            // 
+            this.btn_xoamon.AnimationHoverSpeed = 0.07F;
+            this.btn_xoamon.AnimationSpeed = 0.03F;
+            this.btn_xoamon.BackColor = System.Drawing.Color.Transparent;
+            this.btn_xoamon.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
+            this.btn_xoamon.BorderColor = System.Drawing.Color.Black;
+            this.btn_xoamon.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_xoamon.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_xoamon.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_xoamon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_xoamon.Image = null;
+            this.btn_xoamon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_xoamon.ImageSize = new System.Drawing.Size(70, 70);
+            this.btn_xoamon.Location = new System.Drawing.Point(193, 24);
+            this.btn_xoamon.Name = "btn_xoamon";
+            this.btn_xoamon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_xoamon.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_xoamon.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_xoamon.OnHoverImage = null;
+            this.btn_xoamon.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_xoamon.Radius = 20;
+            this.btn_xoamon.Size = new System.Drawing.Size(80, 50);
+            this.btn_xoamon.TabIndex = 9;
+            this.btn_xoamon.Text = "Xóa";
+            this.btn_xoamon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btn_themmon
+            // 
+            this.btn_themmon.AnimationHoverSpeed = 0.07F;
+            this.btn_themmon.AnimationSpeed = 0.03F;
+            this.btn_themmon.BackColor = System.Drawing.Color.Transparent;
+            this.btn_themmon.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
+            this.btn_themmon.BorderColor = System.Drawing.Color.Black;
+            this.btn_themmon.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_themmon.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_themmon.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_themmon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_themmon.Image = null;
+            this.btn_themmon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_themmon.ImageSize = new System.Drawing.Size(70, 70);
+            this.btn_themmon.Location = new System.Drawing.Point(95, 24);
+            this.btn_themmon.Name = "btn_themmon";
+            this.btn_themmon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_themmon.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_themmon.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_themmon.OnHoverImage = null;
+            this.btn_themmon.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_themmon.Radius = 20;
+            this.btn_themmon.Size = new System.Drawing.Size(79, 50);
+            this.btn_themmon.TabIndex = 8;
+            this.btn_themmon.Text = "Thêm món";
+            this.btn_themmon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox1
             // 
@@ -135,7 +243,7 @@ namespace GUI
             this.btn_menu.ImageSize = new System.Drawing.Size(70, 70);
             this.btn_menu.Location = new System.Drawing.Point(3, 3);
             this.btn_menu.Name = "btn_menu";
-            this.btn_menu.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_menu.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_menu.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_menu.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_menu.OnHoverImage = null;
@@ -162,7 +270,7 @@ namespace GUI
             this.gunaButton1.ImageSize = new System.Drawing.Size(70, 70);
             this.gunaButton1.Location = new System.Drawing.Point(87, 3);
             this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton1.OnHoverImage = null;
@@ -189,7 +297,7 @@ namespace GUI
             this.gunaButton2.ImageSize = new System.Drawing.Size(70, 70);
             this.gunaButton2.Location = new System.Drawing.Point(171, 3);
             this.gunaButton2.Name = "gunaButton2";
-            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton2.OnHoverImage = null;
@@ -216,7 +324,7 @@ namespace GUI
             this.gunaButton3.ImageSize = new System.Drawing.Size(70, 70);
             this.gunaButton3.Location = new System.Drawing.Point(255, 3);
             this.gunaButton3.Name = "gunaButton3";
-            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton3.OnHoverImage = null;
@@ -243,7 +351,7 @@ namespace GUI
             this.gunaButton4.ImageSize = new System.Drawing.Size(70, 70);
             this.gunaButton4.Location = new System.Drawing.Point(339, 3);
             this.gunaButton4.Name = "gunaButton4";
-            this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.gunaButton4.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButton4.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton4.OnHoverImage = null;
@@ -311,114 +419,6 @@ namespace GUI
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(489, 419);
             this.panel2.TabIndex = 6;
-            // 
-            // btn_themmon
-            // 
-            this.btn_themmon.AnimationHoverSpeed = 0.07F;
-            this.btn_themmon.AnimationSpeed = 0.03F;
-            this.btn_themmon.BackColor = System.Drawing.Color.Transparent;
-            this.btn_themmon.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.btn_themmon.BorderColor = System.Drawing.Color.Black;
-            this.btn_themmon.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_themmon.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_themmon.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_themmon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_themmon.Image = null;
-            this.btn_themmon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_themmon.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_themmon.Location = new System.Drawing.Point(95, 24);
-            this.btn_themmon.Name = "btn_themmon";
-            this.btn_themmon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_themmon.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_themmon.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_themmon.OnHoverImage = null;
-            this.btn_themmon.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_themmon.Radius = 20;
-            this.btn_themmon.Size = new System.Drawing.Size(79, 50);
-            this.btn_themmon.TabIndex = 8;
-            this.btn_themmon.Text = "Thêm món";
-            this.btn_themmon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btn_xoamon
-            // 
-            this.btn_xoamon.AnimationHoverSpeed = 0.07F;
-            this.btn_xoamon.AnimationSpeed = 0.03F;
-            this.btn_xoamon.BackColor = System.Drawing.Color.Transparent;
-            this.btn_xoamon.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.btn_xoamon.BorderColor = System.Drawing.Color.Black;
-            this.btn_xoamon.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_xoamon.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_xoamon.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_xoamon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_xoamon.Image = null;
-            this.btn_xoamon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_xoamon.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_xoamon.Location = new System.Drawing.Point(193, 24);
-            this.btn_xoamon.Name = "btn_xoamon";
-            this.btn_xoamon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_xoamon.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_xoamon.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_xoamon.OnHoverImage = null;
-            this.btn_xoamon.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_xoamon.Radius = 20;
-            this.btn_xoamon.Size = new System.Drawing.Size(80, 50);
-            this.btn_xoamon.TabIndex = 9;
-            this.btn_xoamon.Text = "Xóa";
-            this.btn_xoamon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btn_chuyenban
-            // 
-            this.btn_chuyenban.AnimationHoverSpeed = 0.07F;
-            this.btn_chuyenban.AnimationSpeed = 0.03F;
-            this.btn_chuyenban.BackColor = System.Drawing.Color.Transparent;
-            this.btn_chuyenban.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.btn_chuyenban.BorderColor = System.Drawing.Color.Black;
-            this.btn_chuyenban.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_chuyenban.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_chuyenban.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_chuyenban.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_chuyenban.Image = null;
-            this.btn_chuyenban.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_chuyenban.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_chuyenban.Location = new System.Drawing.Point(153, 79);
-            this.btn_chuyenban.Name = "btn_chuyenban";
-            this.btn_chuyenban.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_chuyenban.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_chuyenban.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_chuyenban.OnHoverImage = null;
-            this.btn_chuyenban.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_chuyenban.Radius = 20;
-            this.btn_chuyenban.Size = new System.Drawing.Size(79, 50);
-            this.btn_chuyenban.TabIndex = 10;
-            this.btn_chuyenban.Text = "Chuyển bàn";
-            this.btn_chuyenban.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btn_thanhtoan
-            // 
-            this.btn_thanhtoan.AnimationHoverSpeed = 0.07F;
-            this.btn_thanhtoan.AnimationSpeed = 0.03F;
-            this.btn_thanhtoan.BackColor = System.Drawing.Color.Transparent;
-            this.btn_thanhtoan.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.btn_thanhtoan.BorderColor = System.Drawing.Color.Black;
-            this.btn_thanhtoan.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_thanhtoan.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_thanhtoan.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_thanhtoan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_thanhtoan.Image = null;
-            this.btn_thanhtoan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_thanhtoan.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_thanhtoan.Location = new System.Drawing.Point(352, 72);
-            this.btn_thanhtoan.Name = "btn_thanhtoan";
-            this.btn_thanhtoan.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_thanhtoan.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_thanhtoan.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_thanhtoan.OnHoverImage = null;
-            this.btn_thanhtoan.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_thanhtoan.Radius = 20;
-            this.btn_thanhtoan.Size = new System.Drawing.Size(93, 57);
-            this.btn_thanhtoan.TabIndex = 11;
-            this.btn_thanhtoan.Text = "Thanh Toán";
-            this.btn_thanhtoan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frm_menu
             // 

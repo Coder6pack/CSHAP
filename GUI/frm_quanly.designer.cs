@@ -40,6 +40,9 @@ namespace GUI
             this.btn_timkiem = new Guna.UI.WinForms.GunaButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_xoa_kho = new Guna.UI.WinForms.GunaButton();
+            this.btn_sua_kho = new Guna.UI.WinForms.GunaButton();
+            this.btn_them_kho = new Guna.UI.WinForms.GunaButton();
             this.grid_kho = new System.Windows.Forms.DataGridView();
             this.nhanvien = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -47,18 +50,15 @@ namespace GUI
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.grid_nhanvien = new System.Windows.Forms.DataGridView();
-            this.thongke = new System.Windows.Forms.TabPage();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.btn_xoa_kho = new Guna.UI.WinForms.GunaButton();
-            this.btn_sua_kho = new Guna.UI.WinForms.GunaButton();
-            this.btn_them_kho = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.btn_xoa_nhanvien = new Guna.UI.WinForms.GunaButton();
             this.btn_sua_nhanvien = new Guna.UI.WinForms.GunaButton();
             this.btn_them_nhanvien = new Guna.UI.WinForms.GunaButton();
+            this.grid_nhanvien = new System.Windows.Forms.DataGridView();
+            this.thongke = new System.Windows.Forms.TabPage();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.kho.SuspendLayout();
@@ -175,7 +175,7 @@ namespace GUI
             this.btn_timkiem.ImageSize = new System.Drawing.Size(50, 50);
             this.btn_timkiem.Location = new System.Drawing.Point(314, 6);
             this.btn_timkiem.Name = "btn_timkiem";
-            this.btn_timkiem.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_timkiem.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_timkiem.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_timkiem.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_timkiem.OnHoverImage = null;
@@ -202,6 +202,84 @@ namespace GUI
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(459, 66);
             this.panel2.TabIndex = 4;
+            // 
+            // btn_xoa_kho
+            // 
+            this.btn_xoa_kho.AnimationHoverSpeed = 0.07F;
+            this.btn_xoa_kho.AnimationSpeed = 0.03F;
+            this.btn_xoa_kho.BackColor = System.Drawing.Color.Transparent;
+            this.btn_xoa_kho.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
+            this.btn_xoa_kho.BorderColor = System.Drawing.Color.Black;
+            this.btn_xoa_kho.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_xoa_kho.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_xoa_kho.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_xoa_kho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_xoa_kho.Image = global::GUI.Properties.Resources.xoa;
+            this.btn_xoa_kho.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_xoa_kho.ImageSize = new System.Drawing.Size(50, 50);
+            this.btn_xoa_kho.Location = new System.Drawing.Point(352, 3);
+            this.btn_xoa_kho.Name = "btn_xoa_kho";
+            this.btn_xoa_kho.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_xoa_kho.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_xoa_kho.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_xoa_kho.OnHoverImage = null;
+            this.btn_xoa_kho.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_xoa_kho.Radius = 20;
+            this.btn_xoa_kho.Size = new System.Drawing.Size(75, 60);
+            this.btn_xoa_kho.TabIndex = 7;
+            this.btn_xoa_kho.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btn_sua_kho
+            // 
+            this.btn_sua_kho.AnimationHoverSpeed = 0.07F;
+            this.btn_sua_kho.AnimationSpeed = 0.03F;
+            this.btn_sua_kho.BackColor = System.Drawing.Color.Transparent;
+            this.btn_sua_kho.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
+            this.btn_sua_kho.BorderColor = System.Drawing.Color.Black;
+            this.btn_sua_kho.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_sua_kho.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_sua_kho.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_sua_kho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_sua_kho.Image = global::GUI.Properties.Resources.sua;
+            this.btn_sua_kho.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_sua_kho.ImageSize = new System.Drawing.Size(60, 60);
+            this.btn_sua_kho.Location = new System.Drawing.Point(180, 5);
+            this.btn_sua_kho.Name = "btn_sua_kho";
+            this.btn_sua_kho.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_sua_kho.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_sua_kho.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_sua_kho.OnHoverImage = null;
+            this.btn_sua_kho.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_sua_kho.Radius = 20;
+            this.btn_sua_kho.Size = new System.Drawing.Size(81, 59);
+            this.btn_sua_kho.TabIndex = 6;
+            this.btn_sua_kho.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btn_them_kho
+            // 
+            this.btn_them_kho.AnimationHoverSpeed = 0.07F;
+            this.btn_them_kho.AnimationSpeed = 0.03F;
+            this.btn_them_kho.BackColor = System.Drawing.Color.Transparent;
+            this.btn_them_kho.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
+            this.btn_them_kho.BorderColor = System.Drawing.Color.Black;
+            this.btn_them_kho.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_them_kho.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_them_kho.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_them_kho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_them_kho.Image = global::GUI.Properties.Resources.them;
+            this.btn_them_kho.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_them_kho.ImageSize = new System.Drawing.Size(70, 70);
+            this.btn_them_kho.Location = new System.Drawing.Point(22, 4);
+            this.btn_them_kho.Name = "btn_them_kho";
+            this.btn_them_kho.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_them_kho.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_them_kho.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_them_kho.OnHoverImage = null;
+            this.btn_them_kho.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_them_kho.Radius = 20;
+            this.btn_them_kho.Size = new System.Drawing.Size(84, 59);
+            this.btn_them_kho.TabIndex = 5;
+            this.btn_them_kho.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // grid_kho
             // 
@@ -277,6 +355,32 @@ namespace GUI
             this.panel6.Size = new System.Drawing.Size(469, 63);
             this.panel6.TabIndex = 9;
             // 
+            // gunaButton3
+            // 
+            this.gunaButton3.AnimationHoverSpeed = 0.07F;
+            this.gunaButton3.AnimationSpeed = 0.03F;
+            this.gunaButton3.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
+            this.gunaButton3.BorderColor = System.Drawing.Color.Black;
+            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.gunaButton3.Image = global::GUI.Properties.Resources.timkiem;
+            this.gunaButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton3.ImageSize = new System.Drawing.Size(50, 50);
+            this.gunaButton3.Location = new System.Drawing.Point(342, 3);
+            this.gunaButton3.Name = "gunaButton3";
+            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton3.OnHoverImage = null;
+            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton3.Radius = 20;
+            this.gunaButton3.Size = new System.Drawing.Size(49, 57);
+            this.gunaButton3.TabIndex = 7;
+            this.gunaButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(150, 22);
@@ -295,139 +399,6 @@ namespace GUI
             this.panel7.Size = new System.Drawing.Size(468, 63);
             this.panel7.TabIndex = 8;
             // 
-            // grid_nhanvien
-            // 
-            this.grid_nhanvien.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.grid_nhanvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grid_nhanvien.Location = new System.Drawing.Point(3, 71);
-            this.grid_nhanvien.Name = "grid_nhanvien";
-            this.grid_nhanvien.Size = new System.Drawing.Size(468, 458);
-            this.grid_nhanvien.TabIndex = 7;
-            // 
-            // thongke
-            // 
-            this.thongke.Controls.Add(this.listView1);
-            this.thongke.Location = new System.Drawing.Point(4, 22);
-            this.thongke.Name = "thongke";
-            this.thongke.Padding = new System.Windows.Forms.Padding(3);
-            this.thongke.Size = new System.Drawing.Size(949, 529);
-            this.thongke.TabIndex = 3;
-            this.thongke.Text = "Thống Kê";
-            this.thongke.UseVisualStyleBackColor = true;
-            // 
-            // listView1
-            // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(3, 86);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(943, 440);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            // 
-            // btn_xoa_kho
-            // 
-            this.btn_xoa_kho.AnimationHoverSpeed = 0.07F;
-            this.btn_xoa_kho.AnimationSpeed = 0.03F;
-            this.btn_xoa_kho.BackColor = System.Drawing.Color.Transparent;
-            this.btn_xoa_kho.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
-            this.btn_xoa_kho.BorderColor = System.Drawing.Color.Black;
-            this.btn_xoa_kho.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_xoa_kho.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_xoa_kho.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_xoa_kho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_xoa_kho.Image = global::GUI.Properties.Resources.xoa;
-            this.btn_xoa_kho.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_xoa_kho.ImageSize = new System.Drawing.Size(50, 50);
-            this.btn_xoa_kho.Location = new System.Drawing.Point(352, 3);
-            this.btn_xoa_kho.Name = "btn_xoa_kho";
-            this.btn_xoa_kho.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_xoa_kho.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_xoa_kho.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_xoa_kho.OnHoverImage = null;
-            this.btn_xoa_kho.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_xoa_kho.Radius = 20;
-            this.btn_xoa_kho.Size = new System.Drawing.Size(75, 60);
-            this.btn_xoa_kho.TabIndex = 7;
-            this.btn_xoa_kho.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btn_sua_kho
-            // 
-            this.btn_sua_kho.AnimationHoverSpeed = 0.07F;
-            this.btn_sua_kho.AnimationSpeed = 0.03F;
-            this.btn_sua_kho.BackColor = System.Drawing.Color.Transparent;
-            this.btn_sua_kho.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
-            this.btn_sua_kho.BorderColor = System.Drawing.Color.Black;
-            this.btn_sua_kho.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_sua_kho.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_sua_kho.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_sua_kho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_sua_kho.Image = global::GUI.Properties.Resources.sua;
-            this.btn_sua_kho.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_sua_kho.ImageSize = new System.Drawing.Size(60, 60);
-            this.btn_sua_kho.Location = new System.Drawing.Point(180, 5);
-            this.btn_sua_kho.Name = "btn_sua_kho";
-            this.btn_sua_kho.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_sua_kho.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_sua_kho.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_sua_kho.OnHoverImage = null;
-            this.btn_sua_kho.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_sua_kho.Radius = 20;
-            this.btn_sua_kho.Size = new System.Drawing.Size(68, 59);
-            this.btn_sua_kho.TabIndex = 6;
-            this.btn_sua_kho.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btn_them_kho
-            // 
-            this.btn_them_kho.AnimationHoverSpeed = 0.07F;
-            this.btn_them_kho.AnimationSpeed = 0.03F;
-            this.btn_them_kho.BackColor = System.Drawing.Color.Transparent;
-            this.btn_them_kho.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
-            this.btn_them_kho.BorderColor = System.Drawing.Color.Black;
-            this.btn_them_kho.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_them_kho.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_them_kho.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_them_kho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_them_kho.Image = global::GUI.Properties.Resources.them;
-            this.btn_them_kho.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_them_kho.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_them_kho.Location = new System.Drawing.Point(22, 4);
-            this.btn_them_kho.Name = "btn_them_kho";
-            this.btn_them_kho.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_them_kho.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_them_kho.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_them_kho.OnHoverImage = null;
-            this.btn_them_kho.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_them_kho.Radius = 20;
-            this.btn_them_kho.Size = new System.Drawing.Size(57, 59);
-            this.btn_them_kho.TabIndex = 5;
-            this.btn_them_kho.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton3
-            // 
-            this.gunaButton3.AnimationHoverSpeed = 0.07F;
-            this.gunaButton3.AnimationSpeed = 0.03F;
-            this.gunaButton3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(102)))), ((int)(((byte)(0)))));
-            this.gunaButton3.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.gunaButton3.Image = global::GUI.Properties.Resources.timkiem;
-            this.gunaButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton3.ImageSize = new System.Drawing.Size(50, 50);
-            this.gunaButton3.Location = new System.Drawing.Point(342, 3);
-            this.gunaButton3.Name = "gunaButton3";
-            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton3.OnHoverImage = null;
-            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton3.Radius = 20;
-            this.gunaButton3.Size = new System.Drawing.Size(49, 57);
-            this.gunaButton3.TabIndex = 7;
-            this.gunaButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // btn_xoa_nhanvien
             // 
             this.btn_xoa_nhanvien.AnimationHoverSpeed = 0.07F;
@@ -444,7 +415,7 @@ namespace GUI
             this.btn_xoa_nhanvien.ImageSize = new System.Drawing.Size(50, 50);
             this.btn_xoa_nhanvien.Location = new System.Drawing.Point(343, 2);
             this.btn_xoa_nhanvien.Name = "btn_xoa_nhanvien";
-            this.btn_xoa_nhanvien.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_xoa_nhanvien.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_xoa_nhanvien.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_xoa_nhanvien.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_xoa_nhanvien.OnHoverImage = null;
@@ -468,9 +439,9 @@ namespace GUI
             this.btn_sua_nhanvien.Image = global::GUI.Properties.Resources.sua;
             this.btn_sua_nhanvien.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btn_sua_nhanvien.ImageSize = new System.Drawing.Size(60, 60);
-            this.btn_sua_nhanvien.Location = new System.Drawing.Point(158, 3);
+            this.btn_sua_nhanvien.Location = new System.Drawing.Point(175, 3);
             this.btn_sua_nhanvien.Name = "btn_sua_nhanvien";
-            this.btn_sua_nhanvien.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_sua_nhanvien.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_sua_nhanvien.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_sua_nhanvien.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_sua_nhanvien.OnHoverImage = null;
@@ -496,7 +467,7 @@ namespace GUI
             this.btn_them_nhanvien.ImageSize = new System.Drawing.Size(70, 70);
             this.btn_them_nhanvien.Location = new System.Drawing.Point(21, 3);
             this.btn_them_nhanvien.Name = "btn_them_nhanvien";
-            this.btn_them_nhanvien.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_them_nhanvien.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_them_nhanvien.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_them_nhanvien.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_them_nhanvien.OnHoverImage = null;
@@ -505,6 +476,36 @@ namespace GUI
             this.btn_them_nhanvien.Size = new System.Drawing.Size(87, 57);
             this.btn_them_nhanvien.TabIndex = 4;
             this.btn_them_nhanvien.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // grid_nhanvien
+            // 
+            this.grid_nhanvien.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.grid_nhanvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid_nhanvien.Location = new System.Drawing.Point(3, 71);
+            this.grid_nhanvien.Name = "grid_nhanvien";
+            this.grid_nhanvien.Size = new System.Drawing.Size(468, 458);
+            this.grid_nhanvien.TabIndex = 7;
+            // 
+            // thongke
+            // 
+            this.thongke.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(25)))), ((int)(((byte)(0)))));
+            this.thongke.Controls.Add(this.listView1);
+            this.thongke.Location = new System.Drawing.Point(4, 22);
+            this.thongke.Name = "thongke";
+            this.thongke.Padding = new System.Windows.Forms.Padding(3);
+            this.thongke.Size = new System.Drawing.Size(949, 529);
+            this.thongke.TabIndex = 3;
+            this.thongke.Text = "Thống Kê";
+            // 
+            // listView1
+            // 
+            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(3, 86);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(943, 440);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // frm_quanly
             // 

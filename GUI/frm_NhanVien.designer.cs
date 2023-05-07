@@ -83,7 +83,7 @@ namespace GUI
             this.btn_caidat.ImageSize = new System.Drawing.Size(30, 30);
             this.btn_caidat.Location = new System.Drawing.Point(-13, 117);
             this.btn_caidat.Name = "btn_caidat";
-            this.btn_caidat.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_caidat.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(51)))), ((int)(((byte)(255)))));
             this.btn_caidat.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_caidat.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_caidat.OnHoverImage = null;
@@ -110,7 +110,7 @@ namespace GUI
             this.btn_thoat.ImageSize = new System.Drawing.Size(100, 60);
             this.btn_thoat.Location = new System.Drawing.Point(12, 477);
             this.btn_thoat.Name = "btn_thoat";
-            this.btn_thoat.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_thoat.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_thoat.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_thoat.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_thoat.OnHoverImage = null;
@@ -136,7 +136,7 @@ namespace GUI
             this.btn_quanly.ImageSize = new System.Drawing.Size(70, 70);
             this.btn_quanly.Location = new System.Drawing.Point(12, 379);
             this.btn_quanly.Name = "btn_quanly";
-            this.btn_quanly.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_quanly.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_quanly.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_quanly.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_quanly.OnHoverImage = null;
@@ -162,7 +162,7 @@ namespace GUI
             this.btn_lichsuhoadon.ImageSize = new System.Drawing.Size(100, 50);
             this.btn_lichsuhoadon.Location = new System.Drawing.Point(12, 281);
             this.btn_lichsuhoadon.Name = "btn_lichsuhoadon";
-            this.btn_lichsuhoadon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_lichsuhoadon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_lichsuhoadon.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_lichsuhoadon.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_lichsuhoadon.OnHoverImage = null;
@@ -188,7 +188,7 @@ namespace GUI
             this.btn_menu.ImageSize = new System.Drawing.Size(100, 70);
             this.btn_menu.Location = new System.Drawing.Point(12, 185);
             this.btn_menu.Name = "btn_menu";
-            this.btn_menu.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_menu.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_menu.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_menu.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_menu.OnHoverImage = null;

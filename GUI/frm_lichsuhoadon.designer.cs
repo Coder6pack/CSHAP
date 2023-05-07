@@ -30,6 +30,7 @@ namespace GUI
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_timkiem_hoadon = new Guna.UI.WinForms.GunaButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -37,7 +38,6 @@ namespace GUI
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btn_timkiem_hoadon = new Guna.UI.WinForms.GunaButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +52,32 @@ namespace GUI
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(958, 558);
             this.panel1.TabIndex = 1;
+            // 
+            // btn_timkiem_hoadon
+            // 
+            this.btn_timkiem_hoadon.AnimationHoverSpeed = 0.07F;
+            this.btn_timkiem_hoadon.AnimationSpeed = 0.03F;
+            this.btn_timkiem_hoadon.BackColor = System.Drawing.Color.Transparent;
+            this.btn_timkiem_hoadon.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
+            this.btn_timkiem_hoadon.BorderColor = System.Drawing.Color.Black;
+            this.btn_timkiem_hoadon.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_timkiem_hoadon.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_timkiem_hoadon.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_timkiem_hoadon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_timkiem_hoadon.Image = global::GUI.Properties.Resources.timkiem;
+            this.btn_timkiem_hoadon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_timkiem_hoadon.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_timkiem_hoadon.Location = new System.Drawing.Point(350, 3);
+            this.btn_timkiem_hoadon.Name = "btn_timkiem_hoadon";
+            this.btn_timkiem_hoadon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_timkiem_hoadon.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_timkiem_hoadon.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_timkiem_hoadon.OnHoverImage = null;
+            this.btn_timkiem_hoadon.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_timkiem_hoadon.Radius = 10;
+            this.btn_timkiem_hoadon.Size = new System.Drawing.Size(53, 32);
+            this.btn_timkiem_hoadon.TabIndex = 7;
+            this.btn_timkiem_hoadon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox1
             // 
@@ -104,33 +130,6 @@ namespace GUI
             // 
             this.columnHeader5.Text = "Mã Nhân Viên";
             this.columnHeader5.Width = 129;
-            // 
-            // btn_timkiem_hoadon
-            // 
-            this.btn_timkiem_hoadon.AnimationHoverSpeed = 0.07F;
-            this.btn_timkiem_hoadon.AnimationSpeed = 0.03F;
-            this.btn_timkiem_hoadon.BackColor = System.Drawing.Color.Transparent;
-            this.btn_timkiem_hoadon.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.btn_timkiem_hoadon.BorderColor = System.Drawing.Color.Black;
-            this.btn_timkiem_hoadon.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_timkiem_hoadon.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_timkiem_hoadon.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_timkiem_hoadon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_timkiem_hoadon.Image = null;
-            this.btn_timkiem_hoadon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_timkiem_hoadon.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_timkiem_hoadon.Location = new System.Drawing.Point(369, 3);
-            this.btn_timkiem_hoadon.Name = "btn_timkiem_hoadon";
-            this.btn_timkiem_hoadon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_timkiem_hoadon.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_timkiem_hoadon.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_timkiem_hoadon.OnHoverImage = null;
-            this.btn_timkiem_hoadon.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_timkiem_hoadon.Radius = 20;
-            this.btn_timkiem_hoadon.Size = new System.Drawing.Size(83, 32);
-            this.btn_timkiem_hoadon.TabIndex = 7;
-            this.btn_timkiem_hoadon.Text = "Tìm kiếm";
-            this.btn_timkiem_hoadon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frm_lichsuhoadon
             // 

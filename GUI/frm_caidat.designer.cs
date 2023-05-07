@@ -30,6 +30,8 @@ namespace GUI
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_doimatkhau = new Guna.UI.WinForms.GunaButton();
+            this.btn_sua_thongtin = new Guna.UI.WinForms.GunaButton();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -44,8 +46,6 @@ namespace GUI
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_sua_thongtin = new Guna.UI.WinForms.GunaButton();
-            this.btn_doimatkhau = new Guna.UI.WinForms.GunaButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,6 +72,60 @@ namespace GUI
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(963, 565);
             this.panel1.TabIndex = 0;
+            // 
+            // btn_doimatkhau
+            // 
+            this.btn_doimatkhau.AnimationHoverSpeed = 0.07F;
+            this.btn_doimatkhau.AnimationSpeed = 0.03F;
+            this.btn_doimatkhau.BackColor = System.Drawing.Color.Transparent;
+            this.btn_doimatkhau.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
+            this.btn_doimatkhau.BorderColor = System.Drawing.Color.Black;
+            this.btn_doimatkhau.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_doimatkhau.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_doimatkhau.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_doimatkhau.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_doimatkhau.Image = null;
+            this.btn_doimatkhau.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_doimatkhau.ImageSize = new System.Drawing.Size(70, 70);
+            this.btn_doimatkhau.Location = new System.Drawing.Point(589, 305);
+            this.btn_doimatkhau.Name = "btn_doimatkhau";
+            this.btn_doimatkhau.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_doimatkhau.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_doimatkhau.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_doimatkhau.OnHoverImage = null;
+            this.btn_doimatkhau.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_doimatkhau.Radius = 20;
+            this.btn_doimatkhau.Size = new System.Drawing.Size(110, 60);
+            this.btn_doimatkhau.TabIndex = 17;
+            this.btn_doimatkhau.Text = "Đổi Mật Khẩu";
+            this.btn_doimatkhau.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btn_sua_thongtin
+            // 
+            this.btn_sua_thongtin.AnimationHoverSpeed = 0.07F;
+            this.btn_sua_thongtin.AnimationSpeed = 0.03F;
+            this.btn_sua_thongtin.BackColor = System.Drawing.Color.Transparent;
+            this.btn_sua_thongtin.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
+            this.btn_sua_thongtin.BorderColor = System.Drawing.Color.Black;
+            this.btn_sua_thongtin.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_sua_thongtin.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_sua_thongtin.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_sua_thongtin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.btn_sua_thongtin.Image = null;
+            this.btn_sua_thongtin.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_sua_thongtin.ImageSize = new System.Drawing.Size(70, 70);
+            this.btn_sua_thongtin.Location = new System.Drawing.Point(225, 305);
+            this.btn_sua_thongtin.Name = "btn_sua_thongtin";
+            this.btn_sua_thongtin.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
+            this.btn_sua_thongtin.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_sua_thongtin.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_sua_thongtin.OnHoverImage = null;
+            this.btn_sua_thongtin.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_sua_thongtin.Radius = 20;
+            this.btn_sua_thongtin.Size = new System.Drawing.Size(87, 60);
+            this.btn_sua_thongtin.TabIndex = 16;
+            this.btn_sua_thongtin.Text = "Sửa";
+            this.btn_sua_thongtin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox6
             // 
@@ -197,60 +251,6 @@ namespace GUI
             this.label1.Size = new System.Drawing.Size(173, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Thông tin cá nhân";
-            // 
-            // btn_sua_thongtin
-            // 
-            this.btn_sua_thongtin.AnimationHoverSpeed = 0.07F;
-            this.btn_sua_thongtin.AnimationSpeed = 0.03F;
-            this.btn_sua_thongtin.BackColor = System.Drawing.Color.Transparent;
-            this.btn_sua_thongtin.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.btn_sua_thongtin.BorderColor = System.Drawing.Color.Black;
-            this.btn_sua_thongtin.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_sua_thongtin.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_sua_thongtin.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_sua_thongtin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_sua_thongtin.Image = null;
-            this.btn_sua_thongtin.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_sua_thongtin.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_sua_thongtin.Location = new System.Drawing.Point(225, 305);
-            this.btn_sua_thongtin.Name = "btn_sua_thongtin";
-            this.btn_sua_thongtin.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_sua_thongtin.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_sua_thongtin.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_sua_thongtin.OnHoverImage = null;
-            this.btn_sua_thongtin.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_sua_thongtin.Radius = 20;
-            this.btn_sua_thongtin.Size = new System.Drawing.Size(87, 60);
-            this.btn_sua_thongtin.TabIndex = 16;
-            this.btn_sua_thongtin.Text = "Sửa";
-            this.btn_sua_thongtin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btn_doimatkhau
-            // 
-            this.btn_doimatkhau.AnimationHoverSpeed = 0.07F;
-            this.btn_doimatkhau.AnimationSpeed = 0.03F;
-            this.btn_doimatkhau.BackColor = System.Drawing.Color.Transparent;
-            this.btn_doimatkhau.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.btn_doimatkhau.BorderColor = System.Drawing.Color.Black;
-            this.btn_doimatkhau.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_doimatkhau.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_doimatkhau.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_doimatkhau.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_doimatkhau.Image = null;
-            this.btn_doimatkhau.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_doimatkhau.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_doimatkhau.Location = new System.Drawing.Point(589, 305);
-            this.btn_doimatkhau.Name = "btn_doimatkhau";
-            this.btn_doimatkhau.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btn_doimatkhau.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_doimatkhau.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_doimatkhau.OnHoverImage = null;
-            this.btn_doimatkhau.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_doimatkhau.Radius = 20;
-            this.btn_doimatkhau.Size = new System.Drawing.Size(110, 60);
-            this.btn_doimatkhau.TabIndex = 17;
-            this.btn_doimatkhau.Text = "Đổi Mật Khẩu";
-            this.btn_doimatkhau.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frm_caidat
             // 
