@@ -8,3 +8,10 @@ D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\obj\Debug\GUI.csproj.GenerateResource.ca
 D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\obj\Debug\GUI.exe
 D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\obj\Debug\GUI.pdb
+D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\bin\Debug\Guna.UI.dll
+D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\bin\Debug\Bunifu_UI_v1.5.3.xml
+D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\obj\Debug\GUI.Form1.resources
+D:\CDTH21E_WebD\LT_LTWinDown\CSHARP\GUI\obj\Debug\GUI.csproj.CopyComplete
