@@ -16,7 +16,11 @@ namespace GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new frm_dangNhap());
+=======
+            Application.Run(new frm_DangNhap());
+>>>>>>> dev2
         }
     }
 }
