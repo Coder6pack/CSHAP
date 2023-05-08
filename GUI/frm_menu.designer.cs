@@ -31,44 +31,55 @@ namespace GUI
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_thanhtoan = new Guna.UI.WinForms.GunaButton();
-            this.btn_chuyenban = new Guna.UI.WinForms.GunaButton();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btn_xoamon = new Guna.UI.WinForms.GunaButton();
             this.btn_themmon = new Guna.UI.WinForms.GunaButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btn_menu = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.numer_soluong_menu = new System.Windows.Forms.NumericUpDown();
+            this.list_giohang = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView2 = new System.Windows.Forms.ListView();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.ptb_menu = new System.Windows.Forms.PictureBox();
+            this.txt_tenkhachhang_menu = new System.Windows.Forms.TextBox();
+            this.txt_manhanvien_menu = new System.Windows.Forms.TextBox();
+            this.txt_dongia_menu = new System.Windows.Forms.TextBox();
+            this.txt_TC_menu = new System.Windows.Forms.TextBox();
+            this.txt_tennhanvien_menu = new System.Windows.Forms.TextBox();
+            this.txt_sdt_menu = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.date_menu = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.grid_menu = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numer_soluong_menu)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_menu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_menu)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
             this.panel1.Controls.Add(this.btn_thanhtoan);
-            this.panel1.Controls.Add(this.btn_chuyenban);
-            this.panel1.Controls.Add(this.btn_xoamon);
-            this.panel1.Controls.Add(this.btn_themmon);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.numericUpDown1);
-            this.panel1.Controls.Add(this.comboBox3);
-            this.panel1.Location = new System.Drawing.Point(468, 421);
+            this.panel1.Location = new System.Drawing.Point(609, 582);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(489, 132);
+            this.panel1.Size = new System.Drawing.Size(607, 137);
             this.panel1.TabIndex = 4;
             // 
             // btn_thanhtoan
@@ -85,7 +96,7 @@ namespace GUI
             this.btn_thanhtoan.Image = null;
             this.btn_thanhtoan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btn_thanhtoan.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_thanhtoan.Location = new System.Drawing.Point(352, 72);
+            this.btn_thanhtoan.Location = new System.Drawing.Point(501, 3);
             this.btn_thanhtoan.Name = "btn_thanhtoan";
             this.btn_thanhtoan.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_thanhtoan.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -98,32 +109,15 @@ namespace GUI
             this.btn_thanhtoan.Text = "Thanh Toán";
             this.btn_thanhtoan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // btn_chuyenban
+            // textBox1
             // 
-            this.btn_chuyenban.AnimationHoverSpeed = 0.07F;
-            this.btn_chuyenban.AnimationSpeed = 0.03F;
-            this.btn_chuyenban.BackColor = System.Drawing.Color.Transparent;
-            this.btn_chuyenban.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.btn_chuyenban.BorderColor = System.Drawing.Color.Black;
-            this.btn_chuyenban.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_chuyenban.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_chuyenban.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_chuyenban.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_chuyenban.Image = null;
-            this.btn_chuyenban.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_chuyenban.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_chuyenban.Location = new System.Drawing.Point(153, 79);
-            this.btn_chuyenban.Name = "btn_chuyenban";
-            this.btn_chuyenban.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
-            this.btn_chuyenban.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_chuyenban.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_chuyenban.OnHoverImage = null;
-            this.btn_chuyenban.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_chuyenban.Radius = 20;
-            this.btn_chuyenban.Size = new System.Drawing.Size(79, 50);
-            this.btn_chuyenban.TabIndex = 10;
-            this.btn_chuyenban.Text = "Chuyển bàn";
-            this.btn_chuyenban.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(402, 19);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(93, 27);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "0,0 đ";
             // 
             // btn_xoamon
             // 
@@ -139,7 +133,7 @@ namespace GUI
             this.btn_xoamon.Image = null;
             this.btn_xoamon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btn_xoamon.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_xoamon.Location = new System.Drawing.Point(193, 24);
+            this.btn_xoamon.Location = new System.Drawing.Point(280, 171);
             this.btn_xoamon.Name = "btn_xoamon";
             this.btn_xoamon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_xoamon.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -166,7 +160,7 @@ namespace GUI
             this.btn_themmon.Image = null;
             this.btn_themmon.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.btn_themmon.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_themmon.Location = new System.Drawing.Point(95, 24);
+            this.btn_themmon.Location = new System.Drawing.Point(182, 171);
             this.btn_themmon.Name = "btn_themmon";
             this.btn_themmon.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.btn_themmon.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -179,264 +173,309 @@ namespace GUI
             this.btn_themmon.Text = "Thêm món";
             this.btn_themmon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox1
+            // numer_soluong_menu
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(352, 34);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(93, 27);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "0,0 đ";
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(46, 43);
-            this.numericUpDown1.Minimum = new decimal(new int[] {
+            this.numer_soluong_menu.Location = new System.Drawing.Point(110, 189);
+            this.numer_soluong_menu.Minimum = new decimal(new int[] {
             100,
             0,
             0,
             -2147483648});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(43, 20);
-            this.numericUpDown1.TabIndex = 3;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.numer_soluong_menu.Name = "numer_soluong_menu";
+            this.numer_soluong_menu.Size = new System.Drawing.Size(43, 20);
+            this.numer_soluong_menu.TabIndex = 3;
+            this.numer_soluong_menu.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
             // 
-            // comboBox3
+            // list_giohang
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(68, 98);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(79, 21);
-            this.comboBox3.TabIndex = 5;
-            this.comboBox3.Text = "Chọn bàn";
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.btn_menu);
-            this.flowLayoutPanel1.Controls.Add(this.gunaButton1);
-            this.flowLayoutPanel1.Controls.Add(this.gunaButton2);
-            this.flowLayoutPanel1.Controls.Add(this.gunaButton3);
-            this.flowLayoutPanel1.Controls.Add(this.gunaButton4);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(465, 550);
-            this.flowLayoutPanel1.TabIndex = 3;
-            // 
-            // btn_menu
-            // 
-            this.btn_menu.AnimationHoverSpeed = 0.07F;
-            this.btn_menu.AnimationSpeed = 0.03F;
-            this.btn_menu.BackColor = System.Drawing.Color.Transparent;
-            this.btn_menu.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.btn_menu.BorderColor = System.Drawing.Color.Black;
-            this.btn_menu.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_menu.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_menu.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_menu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.btn_menu.Image = null;
-            this.btn_menu.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_menu.ImageSize = new System.Drawing.Size(70, 70);
-            this.btn_menu.Location = new System.Drawing.Point(3, 3);
-            this.btn_menu.Name = "btn_menu";
-            this.btn_menu.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
-            this.btn_menu.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_menu.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_menu.OnHoverImage = null;
-            this.btn_menu.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_menu.Radius = 20;
-            this.btn_menu.Size = new System.Drawing.Size(78, 53);
-            this.btn_menu.TabIndex = 1;
-            this.btn_menu.Text = "Bàn 1";
-            this.btn_menu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton1
-            // 
-            this.gunaButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaButton1.AnimationSpeed = 0.03F;
-            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.gunaButton1.Image = null;
-            this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton1.ImageSize = new System.Drawing.Size(70, 70);
-            this.gunaButton1.Location = new System.Drawing.Point(87, 3);
-            this.gunaButton1.Name = "gunaButton1";
-            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
-            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton1.OnHoverImage = null;
-            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton1.Radius = 20;
-            this.gunaButton1.Size = new System.Drawing.Size(78, 53);
-            this.gunaButton1.TabIndex = 2;
-            this.gunaButton1.Text = "Bàn 2";
-            this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton2
-            // 
-            this.gunaButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaButton2.AnimationSpeed = 0.03F;
-            this.gunaButton2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.gunaButton2.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.gunaButton2.Image = null;
-            this.gunaButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton2.ImageSize = new System.Drawing.Size(70, 70);
-            this.gunaButton2.Location = new System.Drawing.Point(171, 3);
-            this.gunaButton2.Name = "gunaButton2";
-            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
-            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton2.OnHoverImage = null;
-            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton2.Radius = 20;
-            this.gunaButton2.Size = new System.Drawing.Size(78, 53);
-            this.gunaButton2.TabIndex = 3;
-            this.gunaButton2.Text = "Bàn 3";
-            this.gunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton3
-            // 
-            this.gunaButton3.AnimationHoverSpeed = 0.07F;
-            this.gunaButton3.AnimationSpeed = 0.03F;
-            this.gunaButton3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.gunaButton3.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.gunaButton3.Image = null;
-            this.gunaButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton3.ImageSize = new System.Drawing.Size(70, 70);
-            this.gunaButton3.Location = new System.Drawing.Point(255, 3);
-            this.gunaButton3.Name = "gunaButton3";
-            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
-            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton3.OnHoverImage = null;
-            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton3.Radius = 20;
-            this.gunaButton3.Size = new System.Drawing.Size(78, 53);
-            this.gunaButton3.TabIndex = 4;
-            this.gunaButton3.Text = "Bàn 4";
-            this.gunaButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton4
-            // 
-            this.gunaButton4.AnimationHoverSpeed = 0.07F;
-            this.gunaButton4.AnimationSpeed = 0.03F;
-            this.gunaButton4.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton4.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(76)))), ((int)(((byte)(0)))));
-            this.gunaButton4.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton4.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton4.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaButton4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.gunaButton4.Image = null;
-            this.gunaButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.gunaButton4.ImageSize = new System.Drawing.Size(70, 70);
-            this.gunaButton4.Location = new System.Drawing.Point(339, 3);
-            this.gunaButton4.Name = "gunaButton4";
-            this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
-            this.gunaButton4.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton4.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton4.OnHoverImage = null;
-            this.gunaButton4.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton4.Radius = 20;
-            this.gunaButton4.Size = new System.Drawing.Size(78, 53);
-            this.gunaButton4.TabIndex = 5;
-            this.gunaButton4.Text = "Mang đi";
-            this.gunaButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // listView1
-            // 
-            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.list_giohang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.list_giohang.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
-            this.columnHeader4});
-            this.listView1.FullRowSelect = true;
-            this.listView1.GridLines = true;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, 241);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(486, 175);
-            this.listView1.TabIndex = 5;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.columnHeader4,
+            this.columnHeader5});
+            this.list_giohang.FullRowSelect = true;
+            this.list_giohang.GridLines = true;
+            this.list_giohang.HideSelection = false;
+            this.list_giohang.Location = new System.Drawing.Point(5, 241);
+            this.list_giohang.Name = "list_giohang";
+            this.list_giohang.Size = new System.Drawing.Size(564, 329);
+            this.list_giohang.TabIndex = 5;
+            this.list_giohang.UseCompatibleStateImageBehavior = false;
+            this.list_giohang.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Tên sản phẩm";
+            this.columnHeader1.DisplayIndex = 1;
+            this.columnHeader1.Text = "Tên trái cây";
             this.columnHeader1.Width = 142;
             // 
             // columnHeader2
             // 
+            this.columnHeader2.DisplayIndex = 2;
             this.columnHeader2.Text = "Số lượng";
-            this.columnHeader2.Width = 89;
+            this.columnHeader2.Width = 136;
             // 
             // columnHeader3
             // 
+            this.columnHeader3.DisplayIndex = 3;
             this.columnHeader3.Text = "Đơn giá";
-            this.columnHeader3.Width = 93;
+            this.columnHeader3.Width = 124;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Thành tiền";
-            this.columnHeader4.Width = 190;
-            // 
-            // listView2
-            // 
-            this.listView2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(25)))), ((int)(((byte)(0)))));
-            this.listView2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(0, 0);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(486, 243);
-            this.listView2.TabIndex = 7;
-            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.columnHeader4.DisplayIndex = 0;
+            this.columnHeader4.Text = "STT";
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.listView2);
-            this.panel2.Controls.Add(this.listView1);
-            this.panel2.Location = new System.Drawing.Point(468, 3);
+            this.panel2.Controls.Add(this.ptb_menu);
+            this.panel2.Controls.Add(this.txt_tenkhachhang_menu);
+            this.panel2.Controls.Add(this.txt_manhanvien_menu);
+            this.panel2.Controls.Add(this.txt_dongia_menu);
+            this.panel2.Controls.Add(this.txt_TC_menu);
+            this.panel2.Controls.Add(this.txt_tennhanvien_menu);
+            this.panel2.Controls.Add(this.txt_sdt_menu);
+            this.panel2.Controls.Add(this.label8);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.date_menu);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.btn_xoamon);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.btn_themmon);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.numer_soluong_menu);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.list_giohang);
+            this.panel2.Location = new System.Drawing.Point(644, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(489, 419);
+            this.panel2.Size = new System.Drawing.Size(572, 573);
             this.panel2.TabIndex = 6;
+            // 
+            // ptb_menu
+            // 
+            this.ptb_menu.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.ptb_menu.Location = new System.Drawing.Point(432, 94);
+            this.ptb_menu.Name = "ptb_menu";
+            this.ptb_menu.Size = new System.Drawing.Size(127, 127);
+            this.ptb_menu.TabIndex = 21;
+            this.ptb_menu.TabStop = false;
+            // 
+            // txt_tenkhachhang_menu
+            // 
+            this.txt_tenkhachhang_menu.Location = new System.Drawing.Point(383, 9);
+            this.txt_tenkhachhang_menu.Name = "txt_tenkhachhang_menu";
+            this.txt_tenkhachhang_menu.Size = new System.Drawing.Size(186, 20);
+            this.txt_tenkhachhang_menu.TabIndex = 20;
+            // 
+            // txt_manhanvien_menu
+            // 
+            this.txt_manhanvien_menu.Location = new System.Drawing.Point(383, 35);
+            this.txt_manhanvien_menu.Name = "txt_manhanvien_menu";
+            this.txt_manhanvien_menu.Size = new System.Drawing.Size(186, 20);
+            this.txt_manhanvien_menu.TabIndex = 19;
+            // 
+            // txt_dongia_menu
+            // 
+            this.txt_dongia_menu.Location = new System.Drawing.Point(383, 61);
+            this.txt_dongia_menu.Name = "txt_dongia_menu";
+            this.txt_dongia_menu.Size = new System.Drawing.Size(186, 20);
+            this.txt_dongia_menu.TabIndex = 18;
+            // 
+            // txt_TC_menu
+            // 
+            this.txt_TC_menu.Location = new System.Drawing.Point(110, 127);
+            this.txt_TC_menu.Name = "txt_TC_menu";
+            this.txt_TC_menu.Size = new System.Drawing.Size(163, 20);
+            this.txt_TC_menu.TabIndex = 17;
+            // 
+            // txt_tennhanvien_menu
+            // 
+            this.txt_tennhanvien_menu.Location = new System.Drawing.Point(110, 38);
+            this.txt_tennhanvien_menu.Name = "txt_tennhanvien_menu";
+            this.txt_tennhanvien_menu.Size = new System.Drawing.Size(163, 20);
+            this.txt_tennhanvien_menu.TabIndex = 16;
+            // 
+            // txt_sdt_menu
+            // 
+            this.txt_sdt_menu.Location = new System.Drawing.Point(110, 9);
+            this.txt_sdt_menu.Name = "txt_sdt_menu";
+            this.txt_sdt_menu.Size = new System.Drawing.Size(163, 20);
+            this.txt_sdt_menu.TabIndex = 15;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.label8.Location = new System.Drawing.Point(328, 64);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(55, 13);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "Đơn giá:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.label7.Location = new System.Drawing.Point(49, 191);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(61, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Số lượng:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.label6.Location = new System.Drawing.Point(295, 38);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(88, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Mã nhân viên:";
+            // 
+            // date_menu
+            // 
+            this.date_menu.Location = new System.Drawing.Point(110, 67);
+            this.date_menu.Name = "date_menu";
+            this.date_menu.Size = new System.Drawing.Size(163, 20);
+            this.date_menu.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.label5.Location = new System.Drawing.Point(279, 12);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(104, 13);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Tên khách hàng:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.label4.Location = new System.Drawing.Point(49, 130);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Tên TC:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.label3.Location = new System.Drawing.Point(55, 73);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(40, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Ngày:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.label2.Location = new System.Drawing.Point(13, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Tên Nhân Viên:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
+            this.label1.Location = new System.Drawing.Point(13, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Số điện thoại:";
+            // 
+            // grid_menu
+            // 
+            this.grid_menu.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(25)))), ((int)(((byte)(0)))));
+            this.grid_menu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grid_menu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6});
+            this.grid_menu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.grid_menu.Location = new System.Drawing.Point(0, 0);
+            this.grid_menu.Name = "grid_menu";
+            this.grid_menu.Size = new System.Drawing.Size(643, 719);
+            this.grid_menu.TabIndex = 7;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "ID Trái Cây";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Tên Trái Cây";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Giá";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Hạn Sử Dụng";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Trạng Thái";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Hình";
+            this.Column6.Name = "Column6";
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Giảm giá";
+            this.columnHeader5.Width = 100;
             // 
             // frm_menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(25)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(958, 555);
+            this.ClientSize = new System.Drawing.Size(1217, 719);
+            this.Controls.Add(this.grid_menu);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "frm_menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numer_soluong_menu)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptb_menu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grid_menu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -445,24 +484,39 @@ namespace GUI
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.NumericUpDown numer_soluong_menu;
+        private Guna.UI.WinForms.GunaButton btn_thanhtoan;
+        private Guna.UI.WinForms.GunaButton btn_xoamon;
+        private Guna.UI.WinForms.GunaButton btn_themmon;
+        private System.Windows.Forms.ListView list_giohang;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ListView listView2;
         private System.Windows.Forms.Panel panel2;
-        private Guna.UI.WinForms.GunaButton btn_menu;
-        private Guna.UI.WinForms.GunaButton gunaButton1;
-        private Guna.UI.WinForms.GunaButton gunaButton2;
-        private Guna.UI.WinForms.GunaButton gunaButton3;
-        private Guna.UI.WinForms.GunaButton gunaButton4;
-        private Guna.UI.WinForms.GunaButton btn_thanhtoan;
-        private Guna.UI.WinForms.GunaButton btn_chuyenban;
-        private Guna.UI.WinForms.GunaButton btn_xoamon;
-        private Guna.UI.WinForms.GunaButton btn_themmon;
+        private System.Windows.Forms.PictureBox ptb_menu;
+        private System.Windows.Forms.TextBox txt_tenkhachhang_menu;
+        private System.Windows.Forms.TextBox txt_manhanvien_menu;
+        private System.Windows.Forms.TextBox txt_dongia_menu;
+        private System.Windows.Forms.TextBox txt_TC_menu;
+        private System.Windows.Forms.TextBox txt_tennhanvien_menu;
+        private System.Windows.Forms.TextBox txt_sdt_menu;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DateTimePicker date_menu;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView grid_menu;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
     }
 }

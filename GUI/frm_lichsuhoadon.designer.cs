@@ -38,6 +38,8 @@ namespace GUI
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +52,7 @@ namespace GUI
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(958, 558);
+            this.panel1.Size = new System.Drawing.Size(1217, 719);
             this.panel1.TabIndex = 1;
             // 
             // btn_timkiem_hoadon
@@ -88,54 +90,68 @@ namespace GUI
             // 
             // listView1
             // 
+            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(25)))), ((int)(((byte)(0)))));
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4,
-            this.columnHeader5});
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7});
+            this.listView1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(51)))));
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 38);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(957, 518);
+            this.listView1.Size = new System.Drawing.Size(1217, 681);
             this.listView1.TabIndex = 5;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Mã Hóa Đơn";
-            this.columnHeader1.Width = 160;
+            this.columnHeader1.Text = "Mã hóa đơn";
+            this.columnHeader1.Width = 140;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Tên Khách Hàng";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 207;
+            this.columnHeader2.Text = "Mã trái cây";
+            this.columnHeader2.Width = 151;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Thời Gian";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 234;
+            this.columnHeader3.Text = "Tên khách hàng";
+            this.columnHeader3.Width = 143;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Tổng Giá";
-            this.columnHeader4.Width = 354;
+            this.columnHeader4.Text = "Mã nhân viên";
+            this.columnHeader4.Width = 131;
             // 
             // columnHeader5
             // 
-            this.columnHeader5.Text = "Mã Nhân Viên";
-            this.columnHeader5.Width = 129;
+            this.columnHeader5.Text = "Thời gian";
+            this.columnHeader5.Width = 206;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Số lượng";
+            this.columnHeader6.Width = 179;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Tổng giá";
+            this.columnHeader7.Width = 337;
             // 
             // frm_lichsuhoadon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(958, 558);
+            this.ClientSize = new System.Drawing.Size(1217, 719);
             this.Controls.Add(this.panel1);
             this.Name = "frm_lichsuhoadon";
             this.Text = "Lịch Sử Hóa Đơn";
@@ -156,5 +172,7 @@ namespace GUI
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private Guna.UI.WinForms.GunaButton btn_timkiem_hoadon;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
     }
 }

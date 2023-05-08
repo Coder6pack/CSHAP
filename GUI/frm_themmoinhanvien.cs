@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frm_quanly : Form
+    public partial class frm_themmoinhanvien : Form
     {
-        public frm_quanly()
+        public frm_themmoinhanvien()
         {
             InitializeComponent();
         }
 
-        private void frm_quanly_Load(object sender, EventArgs e)
+        private void btn_luu_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
         }
     }
 }

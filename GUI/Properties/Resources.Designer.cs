@@ -103,6 +103,26 @@ namespace GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logoFruit {
+            get {
+                object obj = ResourceManager.GetObject("logoFruit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logoFruit_removebg {
+            get {
+                object obj = ResourceManager.GetObject("logoFruit-removebg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nhanvien {
             get {
                 object obj = ResourceManager.GetObject("nhanvien", resourceCulture);
@@ -116,6 +136,16 @@ namespace GUI.Properties {
         internal static System.Drawing.Bitmap quanly {
             get {
                 object obj = ResourceManager.GetObject("quanly", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap quanlytaikhoan {
+            get {
+                object obj = ResourceManager.GetObject("quanlytaikhoan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

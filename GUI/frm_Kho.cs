@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frm_caidat : Form
+    public partial class frm_Kho : Form
     {
-        public frm_caidat()
+        public frm_Kho()
         {
             InitializeComponent();
         }
@@ -20,6 +20,12 @@ namespace GUI
         private void frm_caidat_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_them_kho_Click(object sender, EventArgs e)
+        {
+            frm_themtraicay themtraicay = new frm_themtraicay();
+            themtraicay.Show();
         }
     }
 }

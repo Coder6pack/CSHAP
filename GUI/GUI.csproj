@@ -224,11 +224,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_caidat.cs">
+    <Compile Include="frm_Kho.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_caidat.designer.cs">
-      <DependentUpon>frm_caidat.cs</DependentUpon>
+    <Compile Include="frm_Kho.designer.cs">
+      <DependentUpon>frm_Kho.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_DangNhap.cs">
       <SubType>Form</SubType>
@@ -254,19 +254,31 @@
     <Compile Include="frm_NhanVien.designer.cs">
       <DependentUpon>frm_NhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_quanly.cs">
+    <Compile Include="frm_quanlytaikhoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_quanly.designer.cs">
-      <DependentUpon>frm_quanly.cs</DependentUpon>
+    <Compile Include="frm_quanlytaikhoan.designer.cs">
+      <DependentUpon>frm_quanlytaikhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_themmoinhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_themmoinhanvien.Designer.cs">
+      <DependentUpon>frm_themmoinhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_themtraicay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_themtraicay.Designer.cs">
+      <DependentUpon>frm_themtraicay.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_caidat.resx">
-      <DependentUpon>frm_caidat.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Kho.resx">
+      <DependentUpon>frm_Kho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
@@ -280,8 +292,14 @@
     <EmbeddedResource Include="frm_NhanVien.resx">
       <DependentUpon>frm_NhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_quanly.resx">
-      <DependentUpon>frm_quanly.cs</DependentUpon>
+    <EmbeddedResource Include="frm_quanlytaikhoan.resx">
+      <DependentUpon>frm_quanlytaikhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_themmoinhanvien.resx">
+      <DependentUpon>frm_themmoinhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_themtraicay.resx">
+      <DependentUpon>frm_themtraicay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -336,6 +354,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\anhlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quanlytaikhoan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoFruit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoFruit-removebg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('..\packages\Fody.4.0.2\build\Fody.targets')" />

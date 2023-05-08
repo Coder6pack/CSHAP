@@ -19,7 +19,7 @@ namespace GUI
 
         private void frm_NhanVien_Load(object sender, EventArgs e)
         {
-            btn_quanly.Visible = true;
+            btn_quanlykho.Visible = true;
         }
 
         private void frm_NhanVien_Click(object sender, EventArgs e)
@@ -50,7 +50,7 @@ namespace GUI
 
         private void btn_quanly_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frm_quanly());
+            OpenChildForm(new frm_quanlytaikhoan());
         }
 
         private void btn_menu_Click_1(object sender, EventArgs e)
@@ -70,12 +70,17 @@ namespace GUI
 
         private void btn_quanly_Click_1(object sender, EventArgs e)
         {
-            OpenChildForm(new frm_quanly());
+            OpenChildForm(new frm_Kho());
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frm_caidat());
+            
+        }
+
+        private void gunaButton1_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new frm_quanlytaikhoan());
         }
     }
 }
